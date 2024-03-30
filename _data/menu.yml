@@ -24,11 +24,11 @@ entries:
       show_more_text: See more posts...
       show_more_url: example2-archive.html
   
-  - title: categories
-    entries:
-    {% for category in site.categories %}
-    - title: {{category|first}}
-    {% endfor %}
+        #  - title: categories
+        #    entries:
+        #    {% for category in site.categories %}
+        #    - title: {{category|first}}
+        #    {% endfor %}
 
 #  - title: rss
 #    url: feed.xml
