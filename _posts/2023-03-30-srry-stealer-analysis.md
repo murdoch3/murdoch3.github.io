@@ -133,8 +133,8 @@ The most interesting files appear to be:
 -   \[NSIS\].nsi: The NSIS install script
 
 -   Uninstall MythicT24Setup.exe: This again appears to be a reference
-    > to the mythictherapy\[.\]org domain. Could the user think they are
-    > downloading a “mythic” application from this website?
+    to the mythictherapy\[.\]org domain. Could the user think they are
+    downloading a “mythic” application from this website?
 
 app-64.7z
 ---------
