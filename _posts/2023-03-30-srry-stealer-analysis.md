@@ -17,34 +17,34 @@ Summary
 -   Techniques used:
 
     -   Static analysis: Detect It Easy was used to identify files. 7zip
-        > was used to extract the installer files as well as the
-        > Electron JS code from app.asar. Code analysis was performed on
-        > the NSIS install script as well as the JS code. VirusTotal was
-        > used to observe dropped files and other behavioural
-        > information.
+        was used to extract the installer files as well as the
+        Electron JS code from app.asar. Code analysis was performed on
+        the NSIS install script as well as the JS code. VirusTotal was
+        used to observe dropped files and other behavioural
+        information.
 
     -   Dynamic analysis: ProcMon, ProcessHacker, FakeNet-NG, and
-        > PowerShell logging were used within a FlareVM virtual machine
-        > to observe the sample’s behaviour. The only suspicious
-        > behaviour observed was the reaching out to the C2 server,
-        > observed in both ProcMon and FakeNet-NG.
+        PowerShell logging were used within a FlareVM virtual machine
+        to observe the sample’s behaviour. The only suspicious
+        behaviour observed was the reaching out to the C2 server,
+        observed in both ProcMon and FakeNet-NG.
 
     -   Debugging: Visual Studio Code was used to analyze the heavily
-        > obfuscated JS code run by the Electron application.
+        obfuscated JS code run by the Electron application.
 
     -   Memory forensics: The memory of the running process was dumped
-        > to search for suspicious strings, but nothing was found.
+        to search for suspicious strings, but nothing was found.
 
 -   Further work:
 
     -   While I was able to determine how the beginning of the JS code
-        > worked, it did not appear like it would ever resolve. Further
-        > analysis would need to be performed to determine if there was
-        > a way around it or if the JS code was a red-herring.
+        worked, it did not appear like it would ever resolve. Further
+        analysis would need to be performed to determine if there was
+        a way around it or if the JS code was a red-herring.
 
     -   Other SrryStealer samples could be analyzed to see if they are
-        > still alive, which would allow further dynamic analysis and a
-        > better idea of this malware family’s behaviour.
+        still alive, which would allow further dynamic analysis and a
+        better idea of this malware family’s behaviour.
 
 Background
 ==========
