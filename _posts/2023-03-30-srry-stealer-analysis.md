@@ -111,7 +111,7 @@ Sample Analysis
 Executable
 ----------
 
-<img src="/_screenshots/SrryStealerAnalysis/image22.png" style="width:6.5in;height:4.80556in" />
+<img src="/assets/SrryStealerAnalysis/image22.png" style="width:6.5in;height:4.80556in" />
 
 The sample is a Portable executable file, 32 bit. Detect It Easy detects
 the sample as being created with [<span class="underline">Nullsoft
