@@ -6,20 +6,13 @@ category: malware-analysis
 Summary
 =======
 
--   This malware was categorized as “SrryStealer” found on [<span
-    > class="underline">MalwareBazaar</span>](https://bazaar.abuse.ch/sample/0147881f61d051b5918be81ce9fcab18e9b629be393b8065e50cc286d53f8927)
+-   This malware was categorized as “SrryStealer” found on [<span class="underline">MalwareBazaar</span>](https://bazaar.abuse.ch/sample/0147881f61d051b5918be81ce9fcab18e9b629be393b8065e50cc286d53f8927)
 
--   The malware originated from "mythictherapy\[.\]org", and the sample
-    > reached out to “linnisgood\[.\]site”, likely a C2. Both domains no
-    > longer resolve, suggesting this sample is dead.
+-   The malware originated from "mythictherapy\[.\]org", and the sample reached out to “linnisgood\[.\]site”, likely a C2. Both domains no longer resolve, suggesting this sample is dead.
 
--   The sample is a NSIS installer (originally named
-    > MythicTInstaller.exe), which installs and runs an electron
-    > application called MythicT24Setup.exe.
+-   The sample is a NSIS installer (originally named MythicTInstaller.exe), which installs and runs an electron application called MythicT24Setup.exe.
 
--   The Electron application was observed reaching out to the C2 server,
-    > but was not observed accessing any files as we would expect a
-    > stealer to.
+-   The Electron application was observed reaching out to the C2 server, but was not observed accessing any files as we would expect a stealer to.
 
 -   Techniques used:
 
