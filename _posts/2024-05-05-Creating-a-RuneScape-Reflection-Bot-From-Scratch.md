@@ -3,6 +3,22 @@ layout: post
 category: reversing
 ---
 
+- [Preface](#preface)
+- [Introduction](#introduction)
+- [Prior Work](#prior-work)
+- [Java Reflection](#java-reflection)
+- [Technical Breakdown](#technical-breakdown)
+  - [ReflectionUtils](#reflectionutils)
+    - [getField](#getfield)
+    - [setField](#setfield)
+    - [invokeMethod](#invokemethod)
+  - [ReflectionBot](#reflectionbot)
+  - [BotKeyListener](#botkeylistener)
+    - [Finding the Inventory Fields](#finding-the-inventory-fields)
+    - [Performing the Inventory Drop](#performing-the-inventory-drop)
+- [Demonstration](#demonstration)
+- [Further Work](#further-work)
+
 Preface
 =======
 

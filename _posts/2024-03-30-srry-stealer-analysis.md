@@ -3,6 +3,20 @@ layout: post
 category: malware-analysis
 ---
 
+- [Summary](#summary)
+- [Background](#background)
+- [IOCs](#iocs)
+- [Sample Analysis](#sample-analysis)
+  - [Executable](#executable)
+  - [app-64.7z](#app-647z)
+  - [NSIS Install Script](#nsis-install-script)
+  - [Analyzing the Electron Application](#analyzing-the-electron-application)
+    - [package.json](#packagejson)
+    - [app.js](#appjs)
+    - [Dynamic Analysis](#dynamic-analysis)
+    - [Strings](#strings)
+    - [Further Dynamic Analysis](#further-dynamic-analysis)
+
 Summary
 =======
 
